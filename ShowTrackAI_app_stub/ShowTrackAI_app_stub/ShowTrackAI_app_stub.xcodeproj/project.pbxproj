@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0BB1351B2E07136900F5E57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB135022E07136800F5E57D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB135092E07136800F5E57D;
+			remoteInfo = ShowTrackAI_app_stub;
+		};
+		0BB135252E07136900F5E57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB135022E07136800F5E57D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB135092E07136800F5E57D;
+			remoteInfo = ShowTrackAI_app_stub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB1350A2E07136800F5E57D /* ShowTrackAI_app_stub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTrackAI_app_stub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB1351A2E07136900F5E57D /* ShowTrackAI_app_stubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowTrackAI_app_stubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB135242E07136900F5E57D /* ShowTrackAI_app_stubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowTrackAI_app_stubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0B83F7BD2E0715D0003C9349 /* Exceptions for "ShowTrackAI_app_stub" folder in "ShowTrackAI_app_stubTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Animal.swift,
+				Models/Expense.swift,
+				Models/JournalEntry.swift,
+				Models/WatchlistItem.swift,
+				Models/WeightEntry.swift,
+				Routing/RootRouter.swift,
+				Stores/AnimalStore.swift,
+				Views/BuyerDashboardView.swift,
+				Views/EliteDashboardView.swift,
+				Views/LoginView.swift,
+				Views/Tabs/AnimalsTab.swift,
+				Views/Tabs/ExpensesTab.swift,
+				Views/Tabs/JournalTab.swift,
+				Views/Tabs/WatchlistTab.swift,
+				Views/Tabs/WeightTrackerTab.swift,
+				Views/UserDashboardView.swift,
+			);
+			target = 0BB135192E07136900F5E57D /* ShowTrackAI_app_stubTests */;
+		};
+		0B83F7BE2E0715D0003C9349 /* Exceptions for "ShowTrackAI_app_stub" folder in "ShowTrackAI_app_stubUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Animal.swift,
+				Models/Expense.swift,
+				Models/JournalEntry.swift,
+				Models/WatchlistItem.swift,
+				Models/WeightEntry.swift,
+				Routing/RootRouter.swift,
+				Stores/AnimalStore.swift,
+				Views/BuyerDashboardView.swift,
+				Views/EliteDashboardView.swift,
+				Views/LoginView.swift,
+				Views/Tabs/AnimalsTab.swift,
+				Views/Tabs/ExpensesTab.swift,
+				Views/Tabs/JournalTab.swift,
+				Views/Tabs/WatchlistTab.swift,
+				Views/Tabs/WeightTrackerTab.swift,
+				Views/UserDashboardView.swift,
+			);
+			target = 0BB135232E07136900F5E57D /* ShowTrackAI_app_stubUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0BB1350C2E07136800F5E57D /* ShowTrackAI_app_stub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0B83F7BD2E0715D0003C9349 /* Exceptions for "ShowTrackAI_app_stub" folder in "ShowTrackAI_app_stubTests" target */,
+				0B83F7BE2E0715D0003C9349 /* Exceptions for "ShowTrackAI_app_stub" folder in "ShowTrackAI_app_stubUITests" target */,
+			);
+			path = ShowTrackAI_app_stub;
+			sourceTree = "<group>";
+		};
+		0BB1351D2E07136900F5E57D /* ShowTrackAI_app_stubTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShowTrackAI_app_stubTests;
+			sourceTree = "<group>";
+		};
+		0BB135272E07136900F5E57D /* ShowTrackAI_app_stubUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShowTrackAI_app_stubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB135072E07136800F5E57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135172E07136900F5E57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135212E07136900F5E57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB135012E07136800F5E57D = {
+			isa = PBXGroup;
+			children = (
+				0BB1350C2E07136800F5E57D /* ShowTrackAI_app_stub */,
+				0BB1351D2E07136900F5E57D /* ShowTrackAI_app_stubTests */,
+				0BB135272E07136900F5E57D /* ShowTrackAI_app_stubUITests */,
+				0BB1350B2E07136800F5E57D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB1350B2E07136800F5E57D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1350A2E07136800F5E57D /* ShowTrackAI_app_stub.app */,
+				0BB1351A2E07136900F5E57D /* ShowTrackAI_app_stubTests.xctest */,
+				0BB135242E07136900F5E57D /* ShowTrackAI_app_stubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB135092E07136800F5E57D /* ShowTrackAI_app_stub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB1352E2E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stub" */;
+			buildPhases = (
+				0BB135062E07136800F5E57D /* Sources */,
+				0BB135072E07136800F5E57D /* Frameworks */,
+				0BB135082E07136800F5E57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0BB1350C2E07136800F5E57D /* ShowTrackAI_app_stub */,
+			);
+			name = ShowTrackAI_app_stub;
+			packageProductDependencies = (
+			);
+			productName = ShowTrackAI_app_stub;
+			productReference = 0BB1350A2E07136800F5E57D /* ShowTrackAI_app_stub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BB135192E07136900F5E57D /* ShowTrackAI_app_stubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB135312E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stubTests" */;
+			buildPhases = (
+				0BB135162E07136900F5E57D /* Sources */,
+				0BB135172E07136900F5E57D /* Frameworks */,
+				0BB135182E07136900F5E57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB1351C2E07136900F5E57D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BB1351D2E07136900F5E57D /* ShowTrackAI_app_stubTests */,
+			);
+			name = ShowTrackAI_app_stubTests;
+			packageProductDependencies = (
+			);
+			productName = ShowTrackAI_app_stubTests;
+			productReference = 0BB1351A2E07136900F5E57D /* ShowTrackAI_app_stubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BB135232E07136900F5E57D /* ShowTrackAI_app_stubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB135342E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stubUITests" */;
+			buildPhases = (
+				0BB135202E07136900F5E57D /* Sources */,
+				0BB135212E07136900F5E57D /* Frameworks */,
+				0BB135222E07136900F5E57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB135262E07136900F5E57D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BB135272E07136900F5E57D /* ShowTrackAI_app_stubUITests */,
+			);
+			name = ShowTrackAI_app_stubUITests;
+			packageProductDependencies = (
+			);
+			productName = ShowTrackAI_app_stubUITests;
+			productReference = 0BB135242E07136900F5E57D /* ShowTrackAI_app_stubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB135022E07136800F5E57D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0BB135092E07136800F5E57D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0BB135192E07136900F5E57D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0BB135092E07136800F5E57D;
+					};
+					0BB135232E07136900F5E57D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0BB135092E07136800F5E57D;
+					};
+				};
+			};
+			buildConfigurationList = 0BB135052E07136800F5E57D /* Build configuration list for PBXProject "ShowTrackAI_app_stub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB135012E07136800F5E57D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0BB1350B2E07136800F5E57D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB135092E07136800F5E57D /* ShowTrackAI_app_stub */,
+				0BB135192E07136900F5E57D /* ShowTrackAI_app_stubTests */,
+				0BB135232E07136900F5E57D /* ShowTrackAI_app_stubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB135082E07136800F5E57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135182E07136900F5E57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135222E07136900F5E57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB135062E07136800F5E57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135162E07136900F5E57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB135202E07136900F5E57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB1351C2E07136900F5E57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB135092E07136800F5E57D /* ShowTrackAI_app_stub */;
+			targetProxy = 0BB1351B2E07136900F5E57D /* PBXContainerItemProxy */;
+		};
+		0BB135262E07136900F5E57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB135092E07136800F5E57D /* ShowTrackAI_app_stub */;
+			targetProxy = 0BB135252E07136900F5E57D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB1352C2E07136900F5E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BB1352D2E07136900F5E57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0BB1352F2E07136900F5E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShowTrackAI_app_stub/ShowTrackAI_app_stub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		0BB135302E07136900F5E57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShowTrackAI_app_stub/ShowTrackAI_app_stub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		0BB135322E07136900F5E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowTrackAI_app_stub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowTrackAI_app_stub";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		0BB135332E07136900F5E57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowTrackAI_app_stub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowTrackAI_app_stub";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		0BB135352E07136900F5E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ShowTrackAI_app_stub;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		0BB135362E07136900F5E57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU8QNJJT93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.showtrackai.com.ShowTrackAI-app-stubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ShowTrackAI_app_stub;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB135052E07136800F5E57D /* Build configuration list for PBXProject "ShowTrackAI_app_stub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1352C2E07136900F5E57D /* Debug */,
+				0BB1352D2E07136900F5E57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB1352E2E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1352F2E07136900F5E57D /* Debug */,
+				0BB135302E07136900F5E57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB135312E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB135322E07136900F5E57D /* Debug */,
+				0BB135332E07136900F5E57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB135342E07136900F5E57D /* Build configuration list for PBXNativeTarget "ShowTrackAI_app_stubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB135352E07136900F5E57D /* Debug */,
+				0BB135362E07136900F5E57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB135022E07136800F5E57D /* Project object */;
+}
