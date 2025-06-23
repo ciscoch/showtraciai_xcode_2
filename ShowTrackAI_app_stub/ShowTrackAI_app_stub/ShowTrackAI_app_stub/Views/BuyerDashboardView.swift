@@ -1,4 +1,5 @@
 import SwiftUI
+import Supabase
 
 struct BuyerDashboardView: View {
     var body: some View {

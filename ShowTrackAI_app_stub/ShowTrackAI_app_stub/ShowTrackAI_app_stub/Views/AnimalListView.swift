@@ -1,14 +1,21 @@
 //
-//  AnimalsTab.swift
-//  ShowTrackAI
+//  AnimalListView.swift
+//  ShowTrackAI_app_stub
+//
+//  Created by Francisco Charles on 6/21/25.
+//
+
+//
+//  AnimalListView.swift
+//  YourApp
 //
 //  Created by You on 2025-06-21.
 //
 
 import SwiftUI
 
-struct AnimalsTab: View {
-    @EnvironmentObject private var store: AnimalStore
+struct AnimalListView: View {
+    @StateObject private var store = AnimalStore()
     
     @State private var showAddSheet = false
     @State private var selectedAnimal: Animal?
@@ -28,34 +35,27 @@ struct AnimalsTab: View {
                         }
                     }
                 }
-                .onDelete { offsets in
-                    store.delete(at: offsets)
-                }
+                .onDelete(perform: store.delete)
             }
-            .navigationTitle("Animals")
+            .navigationTitle("My Animals")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         showAddSheet = true
                     } label: {
-                        HStack(spacing: 4) {
-                            Text("New Animal")
-                            Image(systemName: "plus")
-                        }
+                        Label("Add", systemImage: "plus")
                     }
                 }
             }
-            // Add sheet
             .sheet(isPresented: $showAddSheet) {
                 NavigationStack {
-                    AnimalFormView(vm: .init())          // create new
+                    AnimalFormView(vm: .init())
                         .environmentObject(store)
                 }
             }
-            // Edit sheet
             .sheet(item: $selectedAnimal) { animal in
                 NavigationStack {
-                    AnimalFormView(vm: .init(animal: animal)) // edit existing
+                    AnimalFormView(vm: .init(animal: animal))
                         .environmentObject(store)
                 }
             }
@@ -64,6 +64,5 @@ struct AnimalsTab: View {
 }
 
 #Preview {
-    AnimalsTab()
-        .environmentObject(AnimalStore())
+    AnimalListView()
 }

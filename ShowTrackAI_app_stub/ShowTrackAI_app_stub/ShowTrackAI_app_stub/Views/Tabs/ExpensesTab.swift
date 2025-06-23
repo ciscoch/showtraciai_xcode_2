@@ -1,3 +1,10 @@
+//
+//  ExpensesTab.swift
+//  ShowTrackAI
+//
+//  Created by You on 2025-06-21.
+//
+
 import SwiftUI
 import PhotosUI
 
@@ -51,6 +58,9 @@ struct ExpensesTab: View {
                     HStack {
                         VStack(alignment: .leading) {
                             Text(exp.category)
+                            Text(exp.date, style: .date)     // NEW
+                                .font(.caption)
+                                .foregroundColor(.secondary)
                             if exp.receiptImage != nil {
                                 Image(systemName: "photo")
                                     .foregroundStyle(.secondary)
@@ -118,6 +128,7 @@ private struct AddExpenseSheet: View {
     @State private var selectedCategory = "General Transfer/Barter"
     @State private var customCategory = ""
     @State private var amount = ""
+    @State private var expenseDate = Date()           // NEW
     @State private var selectedPhoto: PhotosPickerItem?
     @State private var receiptImage: UIImage?
     
@@ -136,6 +147,9 @@ private struct AddExpenseSheet: View {
                 
                 TextField("Amount", text: $amount)
                     .keyboardType(.decimalPad)
+                
+                // NEW Date Picker
+                DatePicker("Date", selection: $expenseDate, displayedComponents: .date)
                 
                 if allowPhoto {
                     Section("Receipt Photo") {
@@ -160,7 +174,12 @@ private struct AddExpenseSheet: View {
                     Button("Save") {
                         let category = selectedCategory == "Custom…" ? customCategory : selectedCategory
                         let value = Double(amount) ?? 0.0
-                        onSave(.init(category: category, amount: value, receiptImage: receiptImage))
+                        onSave(.init(
+                            category: category,
+                            amount: value,
+                            date: expenseDate,        // pass date
+                            receiptImage: receiptImage
+                        ))
                         dismiss()
                     }
                     .disabled(

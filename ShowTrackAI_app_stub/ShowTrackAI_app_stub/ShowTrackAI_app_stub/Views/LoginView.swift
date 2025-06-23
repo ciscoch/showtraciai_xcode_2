@@ -1,4 +1,5 @@
 import SwiftUI
+import Supabase
 
 struct LoginView: View {
     var body: some View {

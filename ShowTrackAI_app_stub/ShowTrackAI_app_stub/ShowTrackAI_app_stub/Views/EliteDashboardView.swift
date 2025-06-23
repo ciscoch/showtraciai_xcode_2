@@ -1,4 +1,5 @@
 import SwiftUI
+import Supabase
 
 struct EliteDashboardView: View {
     var body: some View {
