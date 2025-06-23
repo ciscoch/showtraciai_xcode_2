@@ -1,29 +1,40 @@
 //
 //  JournalEntry.swift
-//  ShowTrackAI_app_stub
+//  ShowTrackAI
 //
-//  Created by Francisco Charles on 6/21/25.
+//  Created by You on 2025-06-21.
 //
 
 import Foundation
-import SwiftUI   // for UIImage
 
-struct JournalEntry: Identifiable, Hashable {
-    let id = UUID()
-    var date: Date
-    var activity: String
+struct JournalEntry: Identifiable, Codable {
+    var id: UUID = UUID()
+    var date: Date = Date()
     
-    // Elite‑only fields
-    var type: String? = nil
-    var level: String? = nil
-    var detail: String? = nil
-    var timeIn: Date? = nil
-    var timeOut: Date? = nil
-    var receiptImage: UIImage? = nil
+    var category: JournalCategory
+    var subcategory: JournalSubcategory
     
-    /// Computed hours (Elite)
-    var hours: Double? {
+    // Animal Handling
+    var timeIn: Date?
+    var timeOut: Date?
+    
+    // Nutrition (Feed)
+    var feedBrand: String?          // NEW
+    var lbsOfFeed: Double?
+    var hayIncluded: Bool = false
+    
+    // Nutrient Focus (Feed)  NEW
+    var focusProtein: Bool = false
+    var focusEnergy: Bool = false
+    var focusVitaminsMinerals: Bool = false
+    var focusFiber: Bool = false
+    
+    // Notes
+    var notes: String = ""
+    
+    /// Computed total minutes between in/out (Animal Handling)
+    var totalMinutes: Int? {
         guard let start = timeIn, let end = timeOut else { return nil }
-        return end.timeIntervalSince(start) / 3600
+        return Int(end.timeIntervalSince(start) / 60)
     }
 }

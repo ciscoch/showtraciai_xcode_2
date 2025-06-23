@@ -1,9 +1,19 @@
-import Foundation
-import SwiftUI   // for UIImage
+//
+//  Expense.swift
+//  ShowTrackAI
+//
+//  Created by You on 2025-06-21.
+//
 
-struct Expense: Identifiable, Hashable {
-    let id = UUID()
+import Foundation
+import UIKit   // for UIImage
+
+struct Expense: Identifiable {
+    var id: UUID = UUID()
     var category: String
     var amount: Double
-    var receiptImage: UIImage? = nil   // optional receipt photo
+    var date: Date = Date()          // NEW
+    // UIImage isn’t Codable; store path or Data if you persist
+    var receiptImage: UIImage? = nil
 }
+
