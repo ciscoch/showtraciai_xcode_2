@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 @MainActor
-final class AdminAuthStore: ObservableObject {
+class class AdminAuthStore: ObservableObject {
     @Published var isAuthenticated: Bool = false
     @Published var errorMessage: String?
     
